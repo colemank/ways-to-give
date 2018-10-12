@@ -1,0 +1,35 @@
+dev notes:
+
+padding between sections = 110px
+
+
+
+update design for:
+workplace giving
+
+nav items: 
+1 - ways to donate{
+	donate online
+	monthly recurring 
+	donate by mail
+}
+2 - shop futures{
+	amazon smile
+	boon
+}
+3 - facebook fundraiser{
+	facebook
+}
+4 - workplace giving{
+	workplace giving 
+	employer giving programs
+	volunteer
+	fundraise as a team
+}
+5 - gifts of stock{
+	gifts of stock
+}
+6 planned giving{
+	
+}
+
