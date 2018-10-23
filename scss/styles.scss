@@ -220,6 +220,61 @@ html{
 			}
 		}
 		section.three{
+			position: relative;
+		    display: flex;
+		    flex-direction: row;
+		    justify-content: center;
+		    align-items: center;
+		    height: 600px;
+		    width: 100%;
+		    margin-top: 90px;
+		    .facebook-fun-container{
+		    	position: relative;
+				display: flex;
+		    	height: 100%;
+		    	width:auto;
+		    	.facebook-header{
+					position: relative;
+					text-decoration: none;
+					color: black;
+					display: block;
+					font-size: 40px;
+					font-weight: bold;
+					letter-spacing: 3px;
+					bottom: 50px;
+					align-self:flex-end;
+		    	}
+		    	.facebook-content-container{
+		    		.top-paragraph{
+						
+		    		}
+		    		img{
+						height: 200px;
+						width: auto;
+		    		}
+		    		.facebook-li-container{
+		    			position: relative;
+		    			display: flex;
+		    			align-items:center;
+		    			justify-content:center;
+		    			height: 100%;
+		    			width: 100%;
+		    			background-image: url("../assets/funky-lines.png");
+		    			background-repeat: repeat;
+		    // 			background: -moz-linear-gradient(top, #d7baff 1%, #d8c7ff 41%, #d8c7ff 41%, #d8c7ff 48%, #f3edff 100%); /* FF3.6-15 */
+						// background: -webkit-linear-gradient(top, #d7baff 1%,#d8c7ff 41%,#d8c7ff 41%,#d8c7ff 48%,#f3edff 100%); /* Chrome10-25,Safari5.1-6 */
+						// background: linear-gradient(to bottom, #d7baff 1%,#d8c7ff 41%,#d8c7ff 41%,#d8c7ff 48%,#f3edff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+						// filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d7baff', endColorstr='#f3edff',GradientType=0 ); /* IE6-9 */
+						ul{
+							li{
+
+							}
+						}
+		    		}
+		    	}
+		    }
+		}
+		section.four{
 		    position: relative;
 		    display: flex;
 		    flex-direction: row;
@@ -375,7 +430,7 @@ html{
 		    	}
 		    }
 		}
-		section.four{
+		section.five{
 			position: relative;
 		    display: flex;
 		    flex-direction: row;
