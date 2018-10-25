@@ -198,36 +198,90 @@ html {
       flex-direction: row;
       justify-content: center;
       align-items: center;
-      height: 600px;
+      height: 100%;
       width: 100%;
       margin-top: 90px; }
+      html body section.three .background-bar {
+        position: absolute;
+        z-index: 0;
+        width: 355px;
+        height: 370px;
+        flex-grow: 6;
+        transform: rotate(80deg);
+        background-color: #d1c2dc;
+        padding-bottom: 1400px;
+        bottom: -444px;
+        align-self: center;
+        -webkit-box-shadow: 0px 0px 71px -10px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 0px 71px -10px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 0px 120px 0px #323232; }
       html body section.three .facebook-fun-container {
         position: relative;
         display: flex;
+        flex-direction: column;
         height: 100%;
         width: auto; }
         html body section.three .facebook-fun-container .facebook-header {
           position: relative;
-          text-decoration: none;
           color: black;
           display: block;
           font-size: 40px;
           font-weight: bold;
           letter-spacing: 3px;
-          bottom: 50px;
-          align-self: flex-end; }
-        html body section.three .facebook-fun-container .facebook-content-container img {
-          height: 200px;
-          width: auto; }
-        html body section.three .facebook-fun-container .facebook-content-container .facebook-li-container {
+          width: 100%;
+          left: 75px; }
+        html body section.three .facebook-fun-container .facebook-content-container {
           position: relative;
           display: flex;
+          flex-direction: column;
           align-items: center;
-          justify-content: center;
-          height: 100%;
-          width: 100%;
-          background-image: url("../assets/funky-lines.png");
-          background-repeat: repeat; }
+          margin-top: 40px; }
+          html body section.three .facebook-fun-container .facebook-content-container .p-and-img-container {
+            position: relative;
+            width: 60%;
+            z-index: 3;
+            width: 800px; }
+            html body section.three .facebook-fun-container .facebook-content-container .p-and-img-container .top-paragraph {
+              position: relative;
+              display: block;
+              color: white;
+              font-size: 25px;
+              font-weight: bold;
+              top: 25px; }
+            html body section.three .facebook-fun-container .facebook-content-container .p-and-img-container img {
+              position: relative;
+              z-index: 2;
+              height: 200px;
+              float: right;
+              top: 20px;
+              filter: drop-shadow(0px 0px 30px rgba(0, 0, 0, 0.5)); }
+          html body section.three .facebook-fun-container .facebook-content-container .facebook-li-container {
+            position: relative;
+            display: flex;
+            z-index: 0;
+            align-items: center;
+            justify-content: center;
+            height: 350px;
+            width: 60%;
+            background-image: url(../assets/funky-lines.png);
+            background-repeat: repeat;
+            -webkit-box-shadow: 0px 0px 71px -10px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 0px 0px 71px -10px rgba(0, 0, 0, 0.75);
+            box-shadow: 0px 0px 71px -10px rgba(0, 0, 0, 0.7); }
+            html body section.three .facebook-fun-container .facebook-content-container .facebook-li-container ul {
+              position: relative;
+              list-style-type: circle;
+              height: 100%;
+              display: flex;
+              justify-content: space-evenly;
+              flex-direction: column;
+              margin: 0px 45px;
+              padding: 0px; }
+              html body section.three .facebook-fun-container .facebook-content-container .facebook-li-container ul li {
+                position: relative;
+                font-size: 25px;
+                font-weight: bold;
+                padding: 0px 15px; }
     html body section.four {
       position: relative;
       display: flex;

@@ -33,3 +33,29 @@ nav items:
 	
 }
 
+**********toDoList:**********
+
+__________section 1__________
+
+
+__________section 2__________
+
+
+__________section 3__________
+- glowing radial gradient behind the candle in the facebook cake
+- see if I can get the embossed text to fade in naturally
+- parallax things
+
+
+__________section 4__________
+
+
+__________section 5__________
+
+
+__________section 6__________
+
+
+
+
+
