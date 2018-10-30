@@ -197,11 +197,120 @@ html {
       display: flex;
       flex-direction: row;
       justify-content: center;
+      align-items: flex-start;
+      height: 600px;
+      width: 100%;
+      padding: 90px 0px; }
+      html body section.three div.shp-support-container {
+        position: relative;
+        display: block;
+        height: 600px;
+        width: 100%; }
+        html body section.three div.shp-support-container div.amzn {
+          position: relative;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: flex-start;
+          width: 100%; }
+          html body section.three div.shp-support-container div.amzn div.amzn-txt-container {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            z-index: 2;
+            width: 50%;
+            left: 120px; }
+            html body section.three div.shp-support-container div.amzn div.amzn-txt-container div.amzn-txt-header a {
+              text-decoration: none;
+              color: black;
+              display: block;
+              font-size: 40px;
+              margin: 0 0 15px 0px;
+              font-weight: bold;
+              letter-spacing: 3px; }
+            html body section.three div.shp-support-container div.amzn div.amzn-txt-container div.amzn-txt-desc {
+              position: relative;
+              display: flex;
+              justify-content: flex-end;
+              width: 348px; }
+              html body section.three div.shp-support-container div.amzn div.amzn-txt-container div.amzn-txt-desc a {
+                text-decoration: none;
+                color: black;
+                font-size: 24px;
+                font-weight: 600;
+                letter-spacing: 0.8px; }
+          html body section.three div.shp-support-container div.amzn div.amzn-img {
+            display: block;
+            z-index: 1;
+            width: 50%;
+            background-image: url(../assets/amazon-smile.jpg);
+            background-color: #cccccc;
+            height: 250px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            top: 20px;
+            opacity: .4; }
+        html body section.three div.shp-support-container div.boon {
+          position: relative;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: flex-start;
+          width: 100%;
+          margin-top: 75px; }
+          html body section.three div.shp-support-container div.boon div.boon-img {
+            display: block;
+            z-index: 1;
+            width: 50%;
+            background-image: url(../assets/esta-boon-supply-bg-img.png);
+            background-color: #cccccc;
+            height: 250px;
+            background-position: top;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            top: 20px;
+            opacity: .4; }
+          html body section.three div.shp-support-container div.boon div.boon-txt-container {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            z-index: 2;
+            width: 50%;
+            right: 120px; }
+            html body section.three div.shp-support-container div.boon div.boon-txt-container div.boon-txt-header a {
+              text-decoration: none;
+              color: black;
+              display: block;
+              font-size: 40px;
+              margin: 0 0 15px 0px;
+              font-weight: bold;
+              letter-spacing: 3px; }
+            html body section.three div.shp-support-container div.boon div.boon-txt-container div.boon-txt-desc {
+              position: relative;
+              display: flex;
+              justify-content: flex-end;
+              width: 348px; }
+              html body section.three div.shp-support-container div.boon div.boon-txt-container div.boon-txt-desc a {
+                text-decoration: none;
+                color: black;
+                font-size: 24px;
+                font-weight: 600;
+                letter-spacing: 0.8px; }
+    html body section.four {
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
       align-items: center;
       height: 100%;
       width: 100%;
       margin-top: 90px; }
-      html body section.three .background-bar {
+      html body section.four .background-bar {
         position: absolute;
         z-index: 0;
         width: 355px;
@@ -215,13 +324,13 @@ html {
         -webkit-box-shadow: 0px 0px 71px -10px rgba(0, 0, 0, 0.75);
         -moz-box-shadow: 0px 0px 71px -10px rgba(0, 0, 0, 0.75);
         box-shadow: 0px 0px 120px 0px #323232; }
-      html body section.three .facebook-fun-container {
+      html body section.four .facebook-fun-container {
         position: relative;
         display: flex;
         flex-direction: column;
         height: 100%;
         width: auto; }
-        html body section.three .facebook-fun-container .facebook-header {
+        html body section.four .facebook-fun-container .facebook-header {
           position: relative;
           color: black;
           display: block;
@@ -230,32 +339,33 @@ html {
           letter-spacing: 3px;
           width: 100%;
           left: 75px; }
-        html body section.three .facebook-fun-container .facebook-content-container {
+        html body section.four .facebook-fun-container .facebook-content-container {
           position: relative;
           display: flex;
           flex-direction: column;
           align-items: center;
           margin-top: 40px; }
-          html body section.three .facebook-fun-container .facebook-content-container .p-and-img-container {
+          html body section.four .facebook-fun-container .facebook-content-container .p-and-img-container {
             position: relative;
             width: 60%;
             z-index: 3;
             width: 800px; }
-            html body section.three .facebook-fun-container .facebook-content-container .p-and-img-container .top-paragraph {
+            html body section.four .facebook-fun-container .facebook-content-container .p-and-img-container .top-paragraph {
               position: relative;
               display: block;
               color: white;
               font-size: 25px;
               font-weight: bold;
-              top: 25px; }
-            html body section.three .facebook-fun-container .facebook-content-container .p-and-img-container img {
+              top: 25px;
+              text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.75), 0px -1px 1px rgba(0, 0, 0, 0.75); }
+            html body section.four .facebook-fun-container .facebook-content-container .p-and-img-container img {
               position: relative;
               z-index: 2;
               height: 200px;
               float: right;
               top: 20px;
               filter: drop-shadow(0px 0px 30px rgba(0, 0, 0, 0.5)); }
-          html body section.three .facebook-fun-container .facebook-content-container .facebook-li-container {
+          html body section.four .facebook-fun-container .facebook-content-container .facebook-li-container {
             position: relative;
             display: flex;
             z-index: 0;
@@ -268,7 +378,7 @@ html {
             -webkit-box-shadow: 0px 0px 71px -10px rgba(0, 0, 0, 0.75);
             -moz-box-shadow: 0px 0px 71px -10px rgba(0, 0, 0, 0.75);
             box-shadow: 0px 0px 71px -10px rgba(0, 0, 0, 0.7); }
-            html body section.three .facebook-fun-container .facebook-content-container .facebook-li-container ul {
+            html body section.four .facebook-fun-container .facebook-content-container .facebook-li-container ul {
               position: relative;
               list-style-type: circle;
               height: 100%;
@@ -277,240 +387,16 @@ html {
               flex-direction: column;
               margin: 0px 45px;
               padding: 0px; }
-              html body section.three .facebook-fun-container .facebook-content-container .facebook-li-container ul li {
+              html body section.four .facebook-fun-container .facebook-content-container .facebook-li-container ul li {
                 position: relative;
                 font-size: 25px;
                 font-weight: bold;
                 padding: 0px 15px; }
-    html body section.four {
-      position: relative;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: flex-start;
-      height: 600px;
-      width: 100%;
-      padding: 90px 0px; }
-      html body section.four div.shp-support-container {
-        position: relative;
-        display: block;
-        height: 600px;
-        width: 100%; }
-        html body section.four div.shp-support-container div.amzn {
-          position: relative;
-          display: flex;
-          flex-direction: row;
-          justify-content: space-between;
-          align-items: flex-start;
-          width: 100%; }
-          html body section.four div.shp-support-container div.amzn div.amzn-txt-container {
-            position: relative;
-            display: flex;
-            flex-direction: column;
-            align-items: flex-end;
-            z-index: 2;
-            width: 50%;
-            left: 120px; }
-            html body section.four div.shp-support-container div.amzn div.amzn-txt-container div.amzn-txt-header a {
-              text-decoration: none;
-              color: black;
-              display: block;
-              font-size: 40px;
-              margin: 0 0 15px 0px;
-              font-weight: bold;
-              letter-spacing: 3px; }
-            html body section.four div.shp-support-container div.amzn div.amzn-txt-container div.amzn-txt-desc {
-              position: relative;
-              display: flex;
-              justify-content: flex-end;
-              width: 348px; }
-              html body section.four div.shp-support-container div.amzn div.amzn-txt-container div.amzn-txt-desc a {
-                text-decoration: none;
-                color: black;
-                font-size: 24px;
-                font-weight: 600;
-                letter-spacing: 0.8px; }
-          html body section.four div.shp-support-container div.amzn div.amzn-img {
-            display: block;
-            z-index: 1;
-            width: 50%;
-            background-image: url(../assets/amazon-smile.jpg);
-            background-color: #cccccc;
-            height: 250px;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            position: relative;
-            top: 20px;
-            opacity: .4; }
-        html body section.four div.shp-support-container div.boon {
-          position: relative;
-          display: flex;
-          flex-direction: row;
-          justify-content: space-between;
-          align-items: flex-start;
-          width: 100%;
-          margin-top: 75px; }
-          html body section.four div.shp-support-container div.boon div.boon-img {
-            display: block;
-            z-index: 1;
-            width: 50%;
-            background-image: url(../assets/esta-boon-supply-bg-img.png);
-            background-color: #cccccc;
-            height: 250px;
-            background-position: top;
-            background-repeat: no-repeat;
-            background-size: cover;
-            position: relative;
-            top: 20px;
-            opacity: .4; }
-          html body section.four div.shp-support-container div.boon div.boon-txt-container {
-            position: relative;
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            z-index: 2;
-            width: 50%;
-            right: 120px; }
-            html body section.four div.shp-support-container div.boon div.boon-txt-container div.boon-txt-header a {
-              text-decoration: none;
-              color: black;
-              display: block;
-              font-size: 40px;
-              margin: 0 0 15px 0px;
-              font-weight: bold;
-              letter-spacing: 3px; }
-            html body section.four div.shp-support-container div.boon div.boon-txt-container div.boon-txt-desc {
-              position: relative;
-              display: flex;
-              justify-content: flex-end;
-              width: 348px; }
-              html body section.four div.shp-support-container div.boon div.boon-txt-container div.boon-txt-desc a {
-                text-decoration: none;
-                color: black;
-                font-size: 24px;
-                font-weight: 600;
-                letter-spacing: 0.8px; }
     html body section.five {
       position: relative;
       display: flex;
       flex-direction: row;
       justify-content: center;
       align-items: flex-start;
-      height: 600px;
+      height: 100%;
       width: 100%; }
-      html body section.five div.gft-matching-container {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 600px;
-        width: 100%; }
-        html body section.five div.gft-matching-container div.gft-matching-img {
-          position: relative;
-          height: 500px;
-          width: auto;
-          z-index: 1;
-          top: 0px;
-          margin-left: 15%;
-          align-self: flex-start; }
-          html body section.five div.gft-matching-container div.gft-matching-img img {
-            position: relative;
-            height: 100%;
-            width: auto; }
-        html body section.five div.gft-matching-container div.gft-matching-tp-container {
-          position: absolute;
-          z-index: 2;
-          display: flex;
-          flex-direction: row;
-          justify-content: space-between;
-          height: 60px;
-          width: 100%;
-          top: 50px;
-          z-index: 2; }
-          html body section.five div.gft-matching-container div.gft-matching-tp-container div.gft-matching-l-container {
-            position: relative;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            width: 50%;
-            top: 50px; }
-            html body section.five div.gft-matching-container div.gft-matching-tp-container div.gft-matching-l-container span.gft-matching-header {
-              position: relative;
-              z-index: 2;
-              text-decoration: none;
-              color: black;
-              display: block;
-              font-size: 40px;
-              font-weight: bold;
-              letter-spacing: 3px;
-              bottom: 50px;
-              align-self: flex-end; }
-            html body section.five div.gft-matching-container div.gft-matching-tp-container div.gft-matching-l-container div.long-sep {
-              position: absolute;
-              z-index: 1;
-              display: block;
-              background-color: #d1c2dc;
-              width: 90%;
-              top: -14px;
-              height: 2em;
-              -webkit-box-shadow: 0px 0px 71px -10px rgba(0, 0, 0, 0.75);
-              -moz-box-shadow: 0px 0px 71px -10px rgba(0, 0, 0, 0.75);
-              box-shadow: 0px 0px 71px -10px rgba(0, 0, 0, 0.7); }
-          html body section.five div.gft-matching-container div.gft-matching-tp-container div.gft-matching-r-container {
-            position: relative;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            width: 30%;
-            height: auto; }
-            html body section.five div.gft-matching-container div.gft-matching-tp-container div.gft-matching-r-container div.shrt-sep {
-              position: absolute;
-              display: block;
-              background-color: #d1c2dc;
-              width: 60%;
-              height: 2em;
-              top: 34px;
-              align-self: flex-end;
-              -webkit-box-shadow: 0px 0px 71px -10px rgba(0, 0, 0, 0.75);
-              -moz-box-shadow: 0px 0px 71px -10px rgba(0, 0, 0, 0.75);
-              box-shadow: 0px 0px 71px -10px rgba(0, 0, 0, 0.7); }
-            html body section.five div.gft-matching-container div.gft-matching-tp-container div.gft-matching-r-container div.gft-matching-add {
-              position: relative;
-              text-decoration: none;
-              color: black;
-              display: block;
-              font-size: 20px;
-              font-weight: 600;
-              top: 100px; }
-        html body section.five div.gft-matching-container div.gft-matching-information {
-          position: absolute;
-          z-index: 3;
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-          width: auto;
-          height: auto; }
-          html body section.five div.gft-matching-container div.gft-matching-information div.gft-matching-container {
-            position: relative;
-            display: flex;
-            height: auto;
-            width: 750px;
-            flex-direction: column;
-            align-items: end;
-            justify-content: flex-end;
-            top: 80px; }
-            html body section.five div.gft-matching-container div.gft-matching-information div.gft-matching-container span {
-              position: relative;
-              display: block;
-              line-height: 40px;
-              background-color: white;
-              margin: 0 0 20px;
-              height: 100%;
-              padding: 0px 28px;
-              letter-spacing: 2px;
-              font-weight: 600;
-              -webkit-box-shadow: 0px 0px 71px -10px rgba(0, 0, 0, 0.75);
-              -moz-box-shadow: 0px 0px 71px -10px rgba(0, 0, 0, 0.75);
-              box-shadow: 0px 0px 71px -10px rgba(0, 0, 0, 0.7); }
