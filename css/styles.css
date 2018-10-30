@@ -316,7 +316,7 @@ html {
         width: 355px;
         height: 370px;
         flex-grow: 6;
-        transform: rotate(80deg);
+        transform: rotate(100deg);
         background-color: #d1c2dc;
         padding-bottom: 1400px;
         bottom: -444px;
@@ -395,8 +395,144 @@ html {
     html body section.five {
       position: relative;
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       justify-content: center;
       align-items: flex-start;
       height: 100%;
-      width: 100%; }
+      width: 100%;
+      margin-top: 90px;
+      overflow: unset; }
+      html body section.five .bg-imgs {
+        position: absolute;
+        display: block;
+        z-index: 0;
+        align-self: center;
+        top: -460px; }
+        html body section.five .bg-imgs .pink {
+          position: absolute;
+          z-index: 0;
+          width: 355px;
+          height: 370px;
+          flex-grow: 6;
+          transform: rotate(80deg);
+          background-color: #fed4e7;
+          padding-bottom: 1400px;
+          align-self: center;
+          -webkit-box-shadow: 0px 0px 71px -10px rgba(0, 0, 0, 0.75);
+          -moz-box-shadow: 0px 0px 71px -10px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 0px 120px 0px #323232; }
+        html body section.five .bg-imgs .orange {
+          position: absolute;
+          z-index: 1;
+          width: 355px;
+          height: 370px;
+          flex-grow: 6;
+          transform: rotate(80deg);
+          background-color: #f2b79f;
+          padding-bottom: 1400px;
+          top: 280px;
+          align-self: center;
+          -webkit-box-shadow: 0px 0px 71px -10px rgba(0, 0, 0, 0.75);
+          -moz-box-shadow: 0px 0px 71px -10px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 0px 120px 0px #323232; }
+        html body section.five .bg-imgs .green {
+          position: absolute;
+          z-index: 0;
+          width: 355px;
+          height: 370px;
+          flex-grow: 6;
+          transform: rotate(280deg);
+          background-color: #a9ca80;
+          padding-bottom: 1400px;
+          top: 880px;
+          align-self: center;
+          -webkit-box-shadow: 0px 0px 71px -10px rgba(0, 0, 0, 0.75);
+          -moz-box-shadow: 0px 0px 71px -10px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 0px 120px 0px #323232; }
+      html body section.five .gtw-header {
+        position: relative;
+        display: block;
+        z-index: 1;
+        color: black;
+        font-size: 40px;
+        font-weight: bold;
+        letter-spacing: 3px;
+        width: 100%;
+        left: 75px; }
+      html body section.five .wpg-info-container {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%; }
+        html body section.five .wpg-info-container .wp-giving-container {
+          position: relative;
+          width: 600px;
+          margin: 50px 75px; }
+          html body section.five .wpg-info-container .wp-giving-container .funky-background {
+            position: relative;
+            display: block;
+            background-image: url(../assets/funky-lines.png);
+            background-repeat: repeat;
+            overflow: hidden;
+            padding: 20px;
+            -webkit-box-shadow: 0px 0px 71px -10px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 0px 0px 71px -10px rgba(0, 0, 0, 0.75);
+            box-shadow: 0px 0px 71px -10px rgba(0, 0, 0, 0.7); }
+            html body section.five .wpg-info-container .wp-giving-container .funky-background span.descrip p {
+              line-height: 25px; }
+              html body section.five .wpg-info-container .wp-giving-container .funky-background span.descrip p a {
+                font-weight: bold;
+                color: #cd9c88; }
+                html body section.five .wpg-info-container .wp-giving-container .funky-background span.descrip p a:hover {
+                  color: #f2b79f; }
+        html body section.five .wpg-info-container .em-gifts-container {
+          position: relative;
+          width: 600px;
+          margin: 50px 75px;
+          align-self: flex-end; }
+          html body section.five .wpg-info-container .em-gifts-container .funky-background {
+            position: relative;
+            display: block;
+            background-image: url(../assets/funky-lines.png);
+            background-repeat: repeat;
+            overflow: hidden;
+            padding: 20px;
+            -webkit-box-shadow: 0px 0px 71px -10px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 0px 0px 71px -10px rgba(0, 0, 0, 0.75);
+            box-shadow: 0px 0px 71px -10px rgba(0, 0, 0, 0.7); }
+            html body section.five .wpg-info-container .em-gifts-container .funky-background span.descrip p {
+              line-height: 25px; }
+        html body section.five .wpg-info-container .volunteer-container {
+          position: relative;
+          width: 600px;
+          margin: 50px 75px; }
+          html body section.five .wpg-info-container .volunteer-container .funky-background {
+            position: relative;
+            display: block;
+            background-image: url(../assets/funky-lines.png);
+            background-repeat: repeat;
+            overflow: hidden;
+            padding: 20px;
+            -webkit-box-shadow: 0px 0px 71px -10px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 0px 0px 71px -10px rgba(0, 0, 0, 0.75);
+            box-shadow: 0px 0px 71px -10px rgba(0, 0, 0, 0.7); }
+            html body section.five .wpg-info-container .volunteer-container .funky-background span.descrip p {
+              line-height: 25px; }
+        html body section.five .wpg-info-container .asateam-container {
+          position: relative;
+          width: 600px;
+          margin: 50px 75px;
+          align-self: flex-end; }
+          html body section.five .wpg-info-container .asateam-container .funky-background {
+            position: relative;
+            display: block;
+            background-image: url(../assets/funky-lines.png);
+            background-repeat: repeat;
+            overflow: hidden;
+            padding: 20px;
+            -webkit-box-shadow: 0px 0px 71px -10px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 0px 0px 71px -10px rgba(0, 0, 0, 0.75);
+            box-shadow: 0px 0px 71px -10px rgba(0, 0, 0, 0.7); }
+            html body section.five .wpg-info-container .asateam-container .funky-background span.descrip p {
+              line-height: 25px; }
