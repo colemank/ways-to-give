@@ -1,3 +1,14 @@
+.bar, html body section.five .bg-imgs .pink, html body section.five .bg-imgs .orange, html body section.five .bg-imgs .green {
+  overflow: hidden;
+  position: absolute;
+  z-index: 1;
+  width: 300%;
+  min-height: 355px;
+  align-self: center;
+  -webkit-box-shadow: 0px 0px 71px -10px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 71px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 120px 0px #323232; }
+
 html {
   margin: 0px;
   padding: 0px; }
@@ -6,7 +17,8 @@ html {
     display: block;
     margin: 0px;
     padding: 0px;
-    font-family: arial, helvetica; }
+    font-family: arial, helvetica;
+    overflow-x: hidden; }
     html body section.one {
       position: relative;
       display: flex;
@@ -200,7 +212,7 @@ html {
       align-items: flex-start;
       height: 600px;
       width: 100%;
-      padding: 90px 0px; }
+      padding: 90px 0px 0px 0px; }
       html body section.three div.shp-support-container {
         position: relative;
         display: block;
@@ -309,21 +321,34 @@ html {
       align-items: center;
       height: 100%;
       width: 100%;
-      margin-top: 90px; }
-      html body section.four .background-bar {
+      padding-top: 90px;
+      z-index: 1; }
+      html body section.four .bar-container {
         position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         z-index: 0;
-        width: 355px;
-        height: 370px;
-        flex-grow: 6;
-        transform: rotate(100deg);
-        background-color: #d1c2dc;
-        padding-bottom: 1400px;
-        bottom: -444px;
+        flex-direction: column;
         align-self: center;
-        -webkit-box-shadow: 0px 0px 71px -10px rgba(0, 0, 0, 0.75);
-        -moz-box-shadow: 0px 0px 71px -10px rgba(0, 0, 0, 0.75);
-        box-shadow: 0px 0px 120px 0px #323232; }
+        top: 0px;
+        overflow-y: hidden;
+        height: 100%;
+        width: 100%;
+        background-position: center; }
+        html body section.four .bar-container .background-bar {
+          position: relative;
+          z-index: 4;
+          width: 355px;
+          min-height: 300%;
+          transform: rotate(100deg);
+          background-color: #d1c2dc;
+          background-position: center;
+          left: 60px;
+          align-self: center;
+          -webkit-box-shadow: 0px 0px 71px -10px rgba(0, 0, 0, 0.75);
+          -moz-box-shadow: 0px 0px 71px -10px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 0px 120px 0px #323232; }
       html body section.four .facebook-fun-container {
         position: relative;
         display: flex;
@@ -404,51 +429,29 @@ html {
       overflow: unset; }
       html body section.five .bg-imgs {
         position: absolute;
-        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         z-index: 0;
+        flex-direction: column;
         align-self: center;
-        top: -460px; }
+        top: 0px;
+        overflow-y: hidden;
+        height: 100%;
+        width: 100%;
+        background-position: center; }
         html body section.five .bg-imgs .pink {
-          position: absolute;
-          z-index: 0;
-          width: 355px;
-          height: 370px;
-          flex-grow: 6;
-          transform: rotate(80deg);
+          transform: rotate(26deg);
           background-color: #fed4e7;
-          padding-bottom: 1400px;
-          align-self: center;
-          -webkit-box-shadow: 0px 0px 71px -10px rgba(0, 0, 0, 0.75);
-          -moz-box-shadow: 0px 0px 71px -10px rgba(0, 0, 0, 0.75);
-          box-shadow: 0px 0px 120px 0px #323232; }
+          margin-bottom: -200px; }
         html body section.five .bg-imgs .orange {
-          position: absolute;
-          z-index: 1;
-          width: 355px;
-          height: 370px;
-          flex-grow: 6;
-          transform: rotate(80deg);
-          background-color: #f2b79f;
-          padding-bottom: 1400px;
-          top: 280px;
-          align-self: center;
-          -webkit-box-shadow: 0px 0px 71px -10px rgba(0, 0, 0, 0.75);
-          -moz-box-shadow: 0px 0px 71px -10px rgba(0, 0, 0, 0.75);
-          box-shadow: 0px 0px 120px 0px #323232; }
+          transform: rotate(-10deg);
+          margin-bottom: 220px;
+          bottom: 850px;
+          background-color: #f2b79f; }
         html body section.five .bg-imgs .green {
-          position: absolute;
-          z-index: 0;
-          width: 355px;
-          height: 370px;
-          flex-grow: 6;
-          transform: rotate(280deg);
-          background-color: #a9ca80;
-          padding-bottom: 1400px;
-          top: 880px;
-          align-self: center;
-          -webkit-box-shadow: 0px 0px 71px -10px rgba(0, 0, 0, 0.75);
-          -moz-box-shadow: 0px 0px 71px -10px rgba(0, 0, 0, 0.75);
-          box-shadow: 0px 0px 120px 0px #323232; }
+          transform: rotate(334deg);
+          background-color: #a9ca80; }
       html body section.five .gtw-header {
         position: relative;
         display: block;
